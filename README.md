@@ -75,7 +75,7 @@ Conductor is designed to enable flexible, resilient, and scalable workflows. It 
 #### Clone the repo
 
 ```shell
-git clone https://github.com/conductor-oss/conductor
+git clone [https://github.com/conductor-oss/conductor](https://github.com/DynamatixAnalyticsPvtLtd/dynamatix-conductor)
 ```
 
 #### Change to new Conductor directory
