@@ -15,10 +15,10 @@ services:
     networks:
       - internal
     ports:
-      - 8080:8080
+      - 8090:8080
       - 8127:5000
     healthcheck:
-      test: ["CMD", "curl","-I" ,"-XGET", "http://localhost:8080/health"]
+      test: ["CMD", "curl","-I" ,"-XGET", "http://localhost:8090/health"]
       interval: 60s
       timeout: 30s
       retries: 12
